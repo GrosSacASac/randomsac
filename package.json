@@ -1,0 +1,23 @@
+{
+  "name": "randomsac",
+  "version": "10.0.0",
+  "description": "Random functions",
+  "module": "random.js",
+  "scripts": {
+    "test": "echo see tests"
+  },
+  "files": [
+    "changelog.md",
+    "readme.js",
+    "random.js",
+    "license.txt"
+  ],
+  "keywords": [
+    "random"
+  ],
+  "license": "CC0-1.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/GrosSacASac/randomsac.git"
+  }
+}
