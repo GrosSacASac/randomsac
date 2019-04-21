@@ -11,7 +11,7 @@ import {
     randomPositiveInt,
     randomInt,
     randomFloat
-} from "path.../random.js";
+} from "randomsac";
 ```
 
 
