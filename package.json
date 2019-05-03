@@ -7,9 +7,9 @@
     "test": "echo see tests"
   },
   "files": [
-    "changelog.md",
-    "readme.js",
     "random.js",
+    "changelog.md",
+    "readme.md",
     "license.txt"
   ],
   "keywords": [
