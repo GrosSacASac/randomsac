@@ -10,7 +10,8 @@
 import {
     randomPositiveInt,
     randomInt,
-    randomFloat
+    randomFloat,
+    randomShuffle,
 } from "randomsac";
 ```
 

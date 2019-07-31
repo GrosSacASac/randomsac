@@ -1,8 +1,10 @@
 export {
     randomPositiveInt,
     randomInt,
-    randomFloat
+    randomFloat,
+    randomShuffle,
 };
+
 
 /**
 Returns a random integer between 0 (included) and
@@ -39,5 +41,18 @@ maxExlusive (excluded)
 @return {number} random number
 */
 const randomFloat = function (minInclusive = 0, maxExclusive = 1) {
-  return minInclusive + (Math.random() * (maxExclusive - minInclusive));
+    return minInclusive + (Math.random() * (maxExclusive - minInclusive));
+};
+
+const randomShuffle = (array) => {
+    const indexes = Array.from(array, (value, index) => {
+        return index;
+    });
+    const shuffledArray = [];
+    while (shuffledArray.length < array.length) {
+        const randomIndex = randomInt(0, indexes.length);
+        shuffledArray.push(array[indexes[randomIndex]]);
+        indexes.splice(randomIndex, 1);
+    }
+    return shuffledArray;
 };
