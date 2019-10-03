@@ -4,7 +4,8 @@
   "description": "Random functions",
   "module": "random.js",
   "scripts": {
-    "test": "echo see tests"
+    "test": "echo see tests",
+    "eslint": "./node_modules/.bin/eslint random.js"
   },
   "files": [
     "random.js",
@@ -19,5 +20,16 @@
   "repository": {
     "type": "git",
     "url": "git://github.com/GrosSacASac/randomsac.git"
+  },
+  "devDependencies": {
+    "eslint": "^6.5.1",
+    "eslint-config-red": "^1.4.1"
+  },
+  "eslintConfig": {
+    "extends": "eslint-config-red",
+    "parserOptions": {
+      "ecmaVersion": 6,
+      "sourceType": "module"
+    }
   }
 }
