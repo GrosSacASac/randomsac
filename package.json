@@ -4,7 +4,8 @@
   "description": "Random functions",
   "module": "random.js",
   "scripts": {
-    "test": "echo see tests"
+    "test": "echo see tests",
+    "eslint": "./node_modules/.bin/eslint random.js"
   },
   "files": [
     "random.js",
