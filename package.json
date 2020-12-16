@@ -1,6 +1,6 @@
 {
   "name": "randomsac",
-  "version": "10.1.1",
+  "version": "10.1.2",
   "description": "Random functions",
   "license": "CC0-1.0",
   "module": "random.js",
@@ -9,14 +9,20 @@
     "eslint": "./node_modules/.bin/eslint random.js"
   },
   "devDependencies": {
-    "eslint": "^6.5.1",
-    "eslint-config-red": "^1.4.1"
+    "eslint": "^7.0.0",
+    "eslint-config-red": "^1.8.1"
   },
   "eslintConfig": {
-    "extends": "eslint-config-red",
+    "extends": [
+      "red"
+    ],
     "parserOptions": {
-      "ecmaVersion": 6,
-      "sourceType": "module"
+        "ecmaVersion": 2021,
+        "sourceType": "module",
+        "ecmaFeatures": {}
+    },
+    "env": {
+        "es2021": true
     }
   },
   "files": [

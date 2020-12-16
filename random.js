@@ -28,7 +28,7 @@ maxExlusive (excluded)
 @return {int} random integer
 */
 const randomInt = function (minInclusive = 0, maxExclusive = 2) {
-    return minInclusive + Math.floor(Math.random() * (maxExclusive - minInclusive));
+    return minInclusive + randomPositiveInt(maxExclusive - minInclusive);
 };
 
 /**
