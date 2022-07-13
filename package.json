@@ -11,20 +11,20 @@
     "eslint": "./node_modules/.bin/eslint random.js"
   },
   "devDependencies": {
-    "eslint": "^7.0.0",
-    "eslint-config-red": "^1.8.1"
+    "eslint": "^8.19.0",
+    "eslint-config-red": "^1.9.1"
   },
   "eslintConfig": {
     "extends": [
       "red"
     ],
     "parserOptions": {
-        "ecmaVersion": 2021,
-        "sourceType": "module",
-        "ecmaFeatures": {}
+      "ecmaVersion": 2021,
+      "sourceType": "module",
+      "ecmaFeatures": {}
     },
     "env": {
-        "es2021": true
+      "es2021": true
     }
   },
   "files": [
