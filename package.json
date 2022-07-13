@@ -8,7 +8,7 @@
   "main": "random.js",
   "scripts": {
     "test": "echo see tests",
-    "eslint": "./node_modules/.bin/eslint random.js"
+    "lint-fix": "eslint --ignore-path .gitignore --fix random.js"
   },
   "devDependencies": {
     "eslint": "^8.19.0",
