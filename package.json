@@ -3,7 +3,9 @@
   "version": "10.1.2",
   "description": "Random functions",
   "license": "CC0-1.0",
+  "type": "module",
   "module": "random.js",
+  "main": "random.js",
   "scripts": {
     "test": "echo see tests",
     "eslint": "./node_modules/.bin/eslint random.js"
